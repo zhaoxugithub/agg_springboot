@@ -1,2 +1,14 @@
 server:
   port: 8888
+
+
+test.host: "0.0.0.0"
+test.port: 9999
+test.password: "tttttt"
+
+car.brand: "vvvvv"
+car.price: 8888
+
+
+#开启自动配置报告，可以看到哪些配置类是生效的
+debug: true
