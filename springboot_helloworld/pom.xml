@@ -26,10 +26,17 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
-        <!--热更新-->
+        <!--热更新 ctrl+f9-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!--在yml里面配置一些参数的时候会有提示 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
 
