@@ -1,15 +1,21 @@
-
 #静态资源访问前缀
-#spring:
+spring:
 
   # 注释的原因是因为index访问的时候会有问题
 
-#  mvc:
-#    static-path-pattern: /res/**
+  mvc:
+    #    static-path-pattern: /res/**
+
+    #开启restful风格请求方式
+    hiddenmethod:
+      filter:
+        enabled: true
 
 
 
-  #指定静态资源的存放路径，类路径下的haha，所以需要把静态资源放在resources下面的haha文件夹下
+#指定静态资源的存放路径，类路径下的haha，所以需要把静态资源放在resources下面的haha文件夹下
 #  web:
 #    resources:
 #      static-locations: [classpath:/haha]
+
+
