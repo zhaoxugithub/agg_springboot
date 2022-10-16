@@ -44,4 +44,5 @@ public class TestController {
         return "DELETE-张三";
     }
     // 扩展点：如何把 _method 这个名字换成我们自己喜欢的
+    //方法是：自定义配置
 }

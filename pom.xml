@@ -29,6 +29,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.1</version>
+        </dependency>
+    </dependencies>
+
+
     <!--这个插件配置的作用是用来依赖全部打到jar包-->
     <build>
         <plugins>
